@@ -1,0 +1,44 @@
+@import url('./normolize.css');
+
+ .vartical-slider_title{
+    text-align: center;
+    color: #007bff;
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  .main_card {
+    padding-top: 24px;
+    margin-left: 20px;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 24px;
+    padding-bottom: 20px;
+  }
+  .main_card-slider {
+    width: 141px;
+    overflow-y: auto;
+  }
+  .image-container {
+    width: 100%;
+    height: 143px;
+    overflow: hidden;
+  }
+  .image-container:not(:last-of-type) {
+    margin-bottom: 16px;
+  }
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  .main_card-content {
+    width: 632px;
+  }
+  .main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .slider img,
+  .main-image {
+    transition: transform 0.3s ease;
+  }
